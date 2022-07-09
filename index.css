@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Bai Jamjuree';
+  font-size: 28px;
+  color: #222;
+}
+
+#logo {
+  height: 100%;
+  width: 70%;
+  text-align: center
+}
+
+#smallText {
+  color: white;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 700;
+}
+
+#bigText {
+  color: white;
+  font-size: 40px;
+  line-height: 45px;
+  font-weight: 600;
+}
+
+#textAlign {
+  text-align: right;
+}
+
+#textHot {
+  text-align: left;
+}
+
+#banner {
+  width: 100%;
+  height: 99%;
+}
+
+#gift {
+  width: 15%;
+  position: absolute;
+  top: 0.5rem;
+  left: 5rem
+}
+
+#applyCard {
+  width: 100%;
+  height: 100%;
+}
+
+#textApplyCard {
+  top: 0.5rem;
+  left: 0.5rem;
+  text-transform: uppercase;
+}
+
+#textApplyCard2 {
+  top: 1.4rem;
+  left: 0.5rem;
+}
+
+#borderFt {
+  margin: 0.2rem;
+}
+
+#mt1 {
+  margin-top: 0.2rem
+}
+
+#sale {
+  width: 1.25rem;
+  height: 0.75rem;
+}
+
+/*Media Query*/
+
+@media (max-width: 1200px) {
+  #sale {
+    width: 2rem;
+    height: 1.5rem;
+  }
+
+  #textSale {
+    margin-top: 0.4rem;
+  }
+
+  #noneLg {
+    display: none;
+  }
+
+  #mt1 {
+    margin-top: 0.8rem;
+  }
+
+  #m1 {
+    margin: 0.5rem;
+  }
+
+  #none {
+    display: none;
+  }
+
+  #ml36 {
+    margin-left: 6rem;
+  }
+
+  #borderFt {
+    background: #F1F5F6;
+    border-radius: 5px;
+    padding: 0.5rem;
+    padding-right: 2rem;
+  }
+
+  #textApplyCard {
+    top: 1rem;
+    left: 4rem;
+  }
+
+  #border {
+    border: 1px solid #E5E8EC;
+  }
+
+  #ml {
+    margin-left: 0.2rem;
+  }
+
+  #mt {
+    margin-top: 0.2rem;
+  }
+
+  #mr {
+    margin-right: 0.2rem;
+  }
+
+  #mb {
+    margin-bottom: 0.2rem;
+  }
+
+  #textApplyCard2 {
+    top: 2.4rem;
+    left: 1.5rem;
+    right: 1.5rem;
+  }
+
+  #applyCard {
+    width: 100%;
+    height: 5rem;
+  }
+
+  #gift {
+    width: 15%;
+    position: absolute;
+    top: 0.5rem;
+    left: 13rem
+  }
+
+  #banner {
+    width: 100%;
+    height: 100%;
+  }
+
+  #textHot {
+    text-align: center;
+  }
+
+  .heart {
+    text-align: right;
+  }
+
+  #textAlign {
+    text-align: center;
+    margin-bottom: 0.2rem
+  }
+
+  #bigText {
+    color: white;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 600;
+  }
+
+  #logo {
+    height: 100%;
+    width: 50%;
+    text-align: center
+  }
+
+  #smallText {
+    color: white;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 700;
+  }
+
+  #m1 {
+    margin: 0.5rem;
+  }
+
+  #container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  #noneMin {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  #gift {
+    width: 15%;
+    position: absolute;
+    top: 0.5rem;
+    left: 9.5rem
+  }
+
+  #ml36 {
+    margin-left: 4.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #gift {
+    width: 15%;
+    position: absolute;
+    top: 0.5rem;
+    left: 7rem
+  }
+
+  #ml36 {
+    margin-left: 3.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #gift {
+    width: 15%;
+    position: absolute;
+    top: 0.5rem;
+    left: 6.3rem
+  }
+
+  #ml36 {
+    margin-left: 3rem;
+  }
+}
+
+.none {
+  display: none;
+}
+
+.font12 {
+  font-size: 12px;
+}
+
+.text-header {
+  color: #515D66;
+}
+
+.border-right {
+  border-right: 1px solid #E5E8EC;
+  height: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+.style-icon {
+  height: 0.2rem;
+  width: 0.2rem;
+  margin-left: 0.3rem;
+}
+
+.search {
+  border: 2px solid #E5E8EC;
+  border-radius: 5px;
+  width: 20rem;
+  height: 2rem;
+}
