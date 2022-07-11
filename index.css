@@ -243,18 +243,21 @@ body {
   }
 }
 
+
+
 @media (max-width: 992px) {
   #gift {
     width: 15%;
     position: absolute;
     top: 0.5rem;
-    left: 9.5rem
+    left: 13rem
   }
 
   #ml36 {
     margin-left: 4.5rem;
   }
 }
+
 
 @media (max-width: 768px) {
   #container {
