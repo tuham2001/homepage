@@ -15,7 +15,7 @@ body {
 }
 
 #container {
-  padding: 0 179px 0 179px;
+  padding: 0 13% 0 13%;
 }
 
 #logo {
@@ -44,7 +44,7 @@ body {
   line-height: 26px;
 }
 
-#smalTextBlue {
+#smallTextBlue {
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
@@ -256,7 +256,7 @@ body {
   }
 
   #container {
-    padding: 0 20px 0 20px;
+    padding: 0 4.6% 0 4.6%;
   }
 }
 
@@ -286,7 +286,7 @@ body {
 
 @media (max-width: 768px) {
   #container {
-    padding: 0 20px 0 20px;
+    padding: 0 4.6% 0 4.6%;
   }
 
   #gift {
