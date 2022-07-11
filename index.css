@@ -38,6 +38,18 @@ body {
   font-weight: 600;
 }
 
+#textBlue {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+#smalTextBlue {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+}
+
 #textAlign {
   text-align: right;
 }
@@ -64,14 +76,14 @@ body {
 }
 
 #textApplyCard {
-  top: 0.5rem;
-  left: 0.5rem;
+  top: 20%;
+  left: 2%;
   text-transform: uppercase;
 }
 
 #textApplyCard2 {
-  top: 1.4rem;
-  left: 0.5rem;
+  top: 60%;
+  left: 2%;
 }
 
 #borderFt {
@@ -100,6 +112,18 @@ body {
 /*Media Query*/
 
 @media (max-width: 1199px) {
+  #textBlue {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  #smalTextBlue {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 42px;
+  }
+
   #topTren {
     height: 100%;
     width: 100% !important;
@@ -146,8 +170,9 @@ body {
   }
 
   #textApplyCard {
-    top: 1rem;
-    left: 4rem;
+    top: 20%;
+    left: 15%;
+    right: 15%;
   }
 
   #border {
@@ -171,9 +196,9 @@ body {
   }
 
   #textApplyCard2 {
-    top: 2.4rem;
-    left: 1.5rem;
-    right: 1.5rem;
+    top: 40%;
+    left: 22%;
+    right: 22%;
   }
 
   #applyCard {
@@ -207,10 +232,10 @@ body {
   }
 
   #bigText {
-    color: white;
+    /* color: white;
     font-size: 30px;
     line-height: 35px;
-    font-weight: 600;
+    font-weight: 600; */
   }
 
   #logo {
@@ -220,10 +245,10 @@ body {
   }
 
   #smallText {
-    color: white;
+    /* color: white;
     font-size: 10px;
     line-height: 12px;
-    font-weight: 700;
+    font-weight: 700; */
   }
 
   #m1 {
@@ -284,6 +309,18 @@ body {
     left: 6.5rem
   }
 
+  #textBlue {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  #smallTextBlue {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
   #ml36 {
     margin-left: 3rem;
   }
@@ -310,7 +347,7 @@ body {
 .style-icon {
   height: 0.2rem;
   width: 0.2rem;
-  margin-left: 0.3rem;
+  margin-left: 0.1rem;
 }
 
 .search {
