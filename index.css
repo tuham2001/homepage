@@ -20,7 +20,7 @@ body {
 
 #logo {
   height: 100%;
-  width: 70%;
+  width: 90%;
   text-align: center
 }
 
@@ -191,8 +191,8 @@ body {
     margin-right: 0.2rem;
   }
 
-  #mb {
-    margin-bottom: 0.2rem;
+  .mb {
+    margin-bottom: 0.5rem;
   }
 
   #textApplyCard2 {
