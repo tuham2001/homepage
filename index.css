@@ -9,6 +9,15 @@ body {
   color: #222;
 }
 
+.row {
+  margin-right: 0;
+  margin-left: 0
+}
+
+#container {
+  padding: 0 179px 0 179px;
+}
+
 #logo {
   height: 100%;
   width: 70%;
@@ -46,7 +55,7 @@ body {
   width: 15%;
   position: absolute;
   top: 0.5rem;
-  left: 5rem
+  left: 4.8rem
 }
 
 #applyCard {
@@ -78,9 +87,28 @@ body {
   height: 0.75rem;
 }
 
+#iconNext {
+  top: 4rem;
+  left: 6.5rem;
+}
+
+#topTren {
+  height: 100%;
+  width: 106%;
+}
+
 /*Media Query*/
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
+  #topTren {
+    height: 100%;
+    width: 100% !important;
+  }
+
+  #pr {
+    padding-right: 3px;
+  }
+
   #sale {
     width: 2rem;
     height: 1.5rem;
@@ -127,7 +155,7 @@ body {
   }
 
   #ml {
-    margin-left: 0.2rem;
+    margin-left: 0.5rem;
   }
 
   #mt {
@@ -157,7 +185,7 @@ body {
     width: 15%;
     position: absolute;
     top: 0.5rem;
-    left: 13rem
+    left: 14rem
   }
 
   #banner {
@@ -203,13 +231,13 @@ body {
   }
 
   #container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0 20px 0 20px;
   }
 }
 
 
 @media (min-width: 1200px) {
+
   #noneMin {
     display: none;
   }
@@ -229,11 +257,15 @@ body {
 }
 
 @media (max-width: 768px) {
+  #container {
+    padding: 0 20px 0 20px;
+  }
+
   #gift {
     width: 15%;
     position: absolute;
     top: 0.5rem;
-    left: 7rem
+    left: 8.5rem
   }
 
   #ml36 {
@@ -246,7 +278,7 @@ body {
     width: 15%;
     position: absolute;
     top: 0.5rem;
-    left: 6.3rem
+    left: 6.5rem
   }
 
   #ml36 {
@@ -281,6 +313,6 @@ body {
 .search {
   border: 2px solid #E5E8EC;
   border-radius: 5px;
-  width: 20rem;
-  height: 2rem;
+  /* width: 20rem;
+  height: 2rem; */
 }
