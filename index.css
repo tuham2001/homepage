@@ -9,6 +9,11 @@ body {
   color: #222;
 }
 
+.active {
+  background-color: white !important;
+}
+
+
 .row {
   margin-right: 0;
   margin-left: 0
