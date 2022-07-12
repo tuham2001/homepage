@@ -231,12 +231,7 @@ body {
     margin-bottom: 0.2rem
   }
 
-  #bigText {
-    /* color: white;
-    font-size: 30px;
-    line-height: 35px;
-    font-weight: 600; */
-  }
+
 
   #logo {
     height: 100%;
@@ -244,12 +239,7 @@ body {
     text-align: center
   }
 
-  #smallText {
-    /* color: white;
-    font-size: 10px;
-    line-height: 12px;
-    font-weight: 700; */
-  }
+
 
   #m1 {
     margin: 0.5rem;
@@ -285,6 +275,20 @@ body {
 
 
 @media (max-width: 768px) {
+  #bigText {
+    color: white;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 600;
+  }
+
+  #smallText {
+    color: white;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 700;
+  }
+
   #container {
     padding: 0 4.6% 0 4.6%;
   }
